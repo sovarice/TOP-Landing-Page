@@ -19,7 +19,6 @@ body {
 	background-color: #1f2937;
 	color: #f9faf8;
 	font-size: 24px;
-	border: 1px solid red;
 	padding: 16px 32px;
 }
 /*.header {
@@ -32,6 +31,7 @@ body {
 ul {
 	list-style: none;
 	display: flex;
+	gap: 16px;
 
 }
 li a {
@@ -45,7 +45,6 @@ li a {
 	justify-content: center;
 	align-items: stretch;
 	padding: 80px;
-	border: 1px solid red;
 	color: #f9faf8;
 	background-color: #1f2937;
 	gap: 100px;
@@ -83,7 +82,6 @@ button {
 
 .placeholder {
 	display: flex;
-	border: 1px solid red;
 	max-width: 400px;
 }
 .placeholder img {
@@ -95,7 +93,6 @@ button {
 	flex-direction: column;
 	justify-content: center;
 	align-items: stretch;
-	border: 1px solid red;
 }
 
 .second-hero h2 {
@@ -142,7 +139,6 @@ button {
 	gap: 16px;
 	color: #1f2937;
 	background-color: #e5e7eb;
-	border: 1px solid red;
 }
 
 .text {
@@ -183,4 +179,13 @@ button {
 
 .container button {
 	border: 1px solid #f9faf8;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 22px;
+	background-color: #1f2937;
+	color: #f9faf8;
 }
