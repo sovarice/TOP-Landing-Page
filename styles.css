@@ -22,12 +22,12 @@ body {
 	border: 1px solid red;
 	padding: 16px 32px;
 }
-.header {
-	/*overflow: hidden;
+/*.header {
+	overflow: hidden;
 	position: fixed;
 	top: 0;
-	width: 100%;*/
-}
+	width: 100%;
+}*/
 
 ul {
 	list-style: none;
@@ -95,7 +95,7 @@ button {
 	flex-direction: column;
 	justify-content: center;
 	align-items: stretch;
-	
+	border: 1px solid red;
 }
 
 .second-hero h2 {
@@ -134,3 +134,23 @@ button {
 	font-size: 16px;
 }
 
+.quote {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 80px;
+	gap: 16px;
+	color: #1f2937;
+	background-color: #e5e7eb;
+	border: 1px solid red;
+}
+
+.text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 300;
+}
+.author {
+	font-size: 18px;
+	font-weight: 600;
+}
