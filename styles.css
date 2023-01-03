@@ -154,3 +154,33 @@ button {
 	font-size: 18px;
 	font-weight: 600;
 }
+
+.call-to-action {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 80px;
+}
+
+.container {
+	display: flex;
+	align-items: flex-end;
+	background-color: #3882f6;
+	padding: 32px 64px;
+	border-radius: 0.5rem;
+	gap: 64px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	color: #f9faf8;
+	padding: 0;
+}
+.content h3 {
+	font-size: 22px;
+}
+
+.container button {
+	border: 1px solid #f9faf8;
+}
